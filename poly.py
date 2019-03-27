@@ -130,10 +130,12 @@ if __name__ == "__main__":
     # This represents the rule x^3 = 1 + x
     equal_poly = Poly(1,1,char=2)
     deg_to_replace = 3
+    
+    CHAR = 2
 
-    tt = FieldTimesTable(char=2, max_deg=2, deg_to_replace=deg_to_replace, equal_poly=equal_poly)
+    tt = FieldTimesTable(char=CHAR, max_deg=2, deg_to_replace=deg_to_replace, equal_poly=equal_poly)
     print(tt)
-    pt = FieldPlusTable(char=2, max_deg=2)
+    pt = FieldPlusTable(char=CHAR, max_deg=2)
     print(pt)
 
     
