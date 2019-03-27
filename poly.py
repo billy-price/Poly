@@ -132,10 +132,11 @@ if __name__ == "__main__":
     deg_to_replace = 3
     
     CHAR = 2
+    MAX_DEG = 2
 
-    tt = FieldTimesTable(char=CHAR, max_deg=2, deg_to_replace=deg_to_replace, equal_poly=equal_poly)
+    tt = FieldTimesTable(char=CHAR, max_deg=MAX_DEG, deg_to_replace=deg_to_replace, equal_poly=equal_poly)
     print(tt)
-    pt = FieldPlusTable(char=CHAR, max_deg=2)
+    pt = FieldPlusTable(char=CHAR, max_deg=MAX_DEG)
     print(pt)
 
     
